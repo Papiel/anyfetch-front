@@ -1,12 +1,5 @@
-// Import initializer variables and mixins
-//----------------------------------------
-@import 'landing/variables';
-
-// Import foundation responsive framework
-//---------------------------------------
-@import "compass/css3", "foundation/scss/foundation";
-
 // Import onpage-scroll css
 //-------------------------
 @import 'landing/layout';
 @import 'landing/style';
+@import 'landing/bootstrap.min';
