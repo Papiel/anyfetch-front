@@ -16,8 +16,30 @@ li {
 	font-weight: 300;
 }
 
+.btn-lg {
+	background-color: #F98D33;
+	color: #fff;
+	border-color: #fff;
+}
+
 .center {
 	text-align: center;
+}
+
+.navbar-default {
+	background-color: #fff;
+}
+
+/* Navbar Title*/
+.navbar-default .navbar-brand {
+	color: #16A9E2;
+	font-weight: 500;
+}
+
+/* Navbar menus*/
+.navbar-default .navbar-nav>li>a {
+	color: #16A9E2;
+	font-weight: 500;
 }
 
 .description {
@@ -87,11 +109,14 @@ li {
 }
 
 .content-section-a {
-	background-color: #f8f8f8;
+	color: #fff;
+	background-color: #66C4E9;
 	padding: 50px 0;
 }
 
 .content-section-b {
+	color: #fff;
+	background-color: #349CC5;
 	border-top: 1px solid #e7e7e7;
 	border-bottom: 1px solid #e7e7e7;
 	padding: 50px 0;
@@ -161,9 +186,4 @@ footer {
 
 p.copyright {
 	margin: 15px 0 0;
-}
-
-.navbar-title {
-	color: #16A9E2;
-	font-weight: 500;
 }
